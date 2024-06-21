@@ -17,6 +17,18 @@
         <p>If you would like to donate, please enter your email below:</p>
         <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
             <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <p>Select amount to donate:</p>
+            <label for="amount-low">
+                <input type="radio" id="amount-low" name="amount" value="10">$10
+            </label>
+            <label for="amount-medium">
+                <input type="radio" id="amount-medium" name="amount" value="50">$50
+            </label>
+            <label for="amount-high">
+                <input type="radio" id="amount-high" name="amount" value="100">$100
+            </label>
+
             <input type="submit" value="Donate">
         </form>
     </main>
@@ -26,5 +38,3 @@
 </div>
 </body>
 </html>
-
-
