@@ -52,6 +52,10 @@ input[type="email"] {
     max-width: 300px;
 }
 
+input[type="radio"] {
+    margin: 0 5px; /* Adjust spacing between radio buttons */
+}
+
 input[type="submit"] {
     padding: 10px 20px;
     border: none;
@@ -71,4 +75,3 @@ footer p {
     font-size: 0.9em;
     color: #666;
 }
-
